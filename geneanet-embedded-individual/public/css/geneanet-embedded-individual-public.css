@@ -1,0 +1,170 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.geneanet-embedded-individual {
+	background-color: #efefef;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #888888;
+	color: #000000;
+	max-width: 500px;
+	padding: 14px 14px 0 14px;
+	font-size: 0.8em;
+	word-wrap: break-word;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 7px 0;
+}
+
+.geneanet-embedded-individual.left {
+	margin-right: auto;
+}
+
+.geneanet-embedded-individual.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.geneanet-embedded-individual.right {
+	margin-left: auto;
+}
+
+.geneanet-embedded-individual *,
+.geneanet-embedded-individual *:before,
+.geneanet-embedded-individual *:after {
+	/* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+.geneanet-embedded-individual-content {
+	background-color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	display: table;
+	padding: 0 12px 12px 0;
+	height: 150px;
+	width: 100%;
+}
+
+.geneanet-embedded-individual-column-left {
+	float: left;
+	width: 20%;
+}
+
+.geneanet-embedded-individual-column-right {
+	float: left;
+	width: 80%;
+	padding-left: 20px;
+}
+
+.geneanet-embedded-individual-name {
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-top: 7px;
+}
+
+.geneanet-embedded-individual-logo {
+	margin-left: auto;
+	margin-right: 0;
+	padding: 7px 0;
+	width: 100px;
+}
+
+.geneanet-embedded-individual-logo a,
+.geneanet-embedded-individual-logo a:hover,
+.geneanet-embedded-individual-logo a:active,
+.geneanet-embedded-individual-logo a:focus {
+	outline: 0;
+	border-bottom: none;
+}
+
+.geneanet-embedded-individual-sosa {
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 0.9em;
+	font-weight: bold;
+	padding: 0 6px;
+}
+
+.geneanet-embedded-individual-sosa > svg {
+	height: 14px;
+	margin-right: 2px;
+	position: relative;
+	top: 2px;
+}
+
+.geneanet-embedded-individual-sosa > span {
+	color: #fff;
+}
+
+/* The Sosa number part is only hidden when there is no Sosa to keep space for the next field data. */
+.geneanet-embedded-individual-sosa.geneanet-embedded-individual-no-data {
+	display: inline-block;
+	visibility: hidden;
+}
+
+.geneanet-embedded-individual-content .geneanet-embedded-individual-link {
+	box-shadow: none;
+	color: #14705a;
+	float: right;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.geneanet-embedded-individual-content .geneanet-embedded-individual-link:hover {
+	color: #389683;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.geneanet-embedded-individual-info-block {
+	margin-top: 10px;
+}
+
+.geneanet-embedded-individual-info {
+	color: #6f6f6f;
+}
+
+.geneanet-embedded-individual-date {
+	color: #000000;
+}
+
+.geneanet-embedded-individual-loading {
+	display: none;
+}
+
+.geneanet-embedded-individual-no-data {
+	display: none;
+}
+
+.geneanet-embedded-individual-loader {
+	position: relative;
+}
+
+.geneanet-embedded-individual-loader > img {
+	position: absolute;
+	left: 30%;
+	top: 50%;
+	margin-top: 20px;
+}
+
+.geneanet-embedded-individual .geneanet-embedded-individual-error {
+	display: none;
+	margin-top: 50px;
+}
+
+.alert-box-error {
+	display: block;
+	position: relative;
+	margin-bottom: 1.5em;
+	padding: 1em;
+	border: 1px solid #bd1515;
+	background-color: #f6aeae;
+	color: #bd1515;
+	font-weight: bold;
+}

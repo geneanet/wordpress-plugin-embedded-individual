@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Geneanet Embedded Individual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-18 12:20+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2;add_admin_notice\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-geneanet-embedded-individual-admin.php:109
+msgid "Geneanet Embedded Individual"
+msgstr "Ficha individuo Geneanet"
+
+#: admin/class-geneanet-embedded-individual-admin.php:113
+msgid "URL of the individual"
+msgstr "URL de la ficha del individuo"
+
+#: admin/class-geneanet-embedded-individual-admin.php:122
+msgid "Select link"
+msgstr "Seleccionar el enlace"
+
+#: admin/class-geneanet-embedded-individual-admin.php:123
+msgid "Select if visitor will view the individual page or the family tree."
+msgstr "Seleccione si el visitante verá la página individual o el árbol genealógico."
+
+#: admin/class-geneanet-embedded-individual-admin.php:127
+msgid "Individual"
+msgstr "Individuo"
+
+#: admin/class-geneanet-embedded-individual-admin.php:128
+msgid "Family Tree"
+msgstr "Árbol genealógico"
+
+#: admin/class-geneanet-embedded-individual-admin.php:135
+msgid "Select alignment"
+msgstr "Seleccione la alineación"
+
+#: admin/class-geneanet-embedded-individual-admin.php:139
+msgid "Left"
+msgstr "Izquierda"
+
+#: admin/class-geneanet-embedded-individual-admin.php:140
+msgid "Center"
+msgstr "Centro"
+
+#: admin/class-geneanet-embedded-individual-admin.php:141
+msgid "Right"
+msgstr "Derecha"
+
+#: admin/class-geneanet-embedded-individual-admin.php:396
+#, php-format
+msgid "The URL may not be correctly formatted: %s"
+msgstr "Compruebe la URL de la ficha: parece que no está formateada correctamente: %s"
+
+#: admin/class-geneanet-embedded-individual-admin.php:422
+#, php-format
+msgid "Geneanet has returned an unexpected response for the URL %s. Please try again in a few moments."
+msgstr "Geneanet ha recibido una respuesta no esperada por al URL %s. Inténtelo de nuevo."
+
+#: admin/class-geneanet-embedded-individual-admin.php:430
+#, php-format
+msgid "No individual found with the URL: %s"
+msgstr "No se ha encontrado al individuo por la URL que se ha introducido: %s"
+
+#: admin/class-geneanet-embedded-individual-admin.php:432
+#, php-format
+msgid "Geneanet returned an error for the URL %s: %d"
+msgstr "Geneanet recibe un error por la la URL %s: %d"
+
+#: admin/class-geneanet-embedded-individual-admin.php:435
+#, php-format
+msgid "An error has occurred while sending a request to the URL %s: %d"
+msgstr "Se ha producido un error en la URL %s: %d"
+
+#: public/class-geneanet-embedded-individual-public.php:124
+msgid "An error has occurred while sending a request to Geneanet"
+msgstr "Se ha producido un error en la URL"
+
+#: public/class-geneanet-embedded-individual-public.php:125
+msgid "Geneanet returned an error: "
+msgstr "Geneanet recibe un error: "
+
+#: public/class-geneanet-embedded-individual-public.php:126
+msgid "Individual has not been found (it may be private in the family tree)"
+msgstr "No se ha encontrado al individuo (compruebe en el árbol que no es un privado)"
+
+#: public/class-geneanet-embedded-individual-public.php:127
+msgctxt "male"
+msgid "Married"
+msgstr "Casado"
+
+#: public/class-geneanet-embedded-individual-public.php:128
+msgctxt "female"
+msgid "Married"
+msgstr "Casada"
+
+#: public/class-geneanet-embedded-individual-public.php:129
+msgctxt "unknown"
+msgid "Married"
+msgstr "Casado/a"
+
+#: public/class-geneanet-embedded-individual-public.php:130
+msgid "Relation"
+msgstr "Relación"
+
+#: public/class-geneanet-embedded-individual-public.php:131
+msgctxt "male"
+msgid "Engaged"
+msgstr "Prometido"
+
+#: public/class-geneanet-embedded-individual-public.php:132
+msgctxt "female"
+msgid "Engaged"
+msgstr "Prometida"
+
+#: public/class-geneanet-embedded-individual-public.php:133
+msgctxt "unknown"
+msgid "Engaged"
+msgstr "Prometido/a"
+
+#: public/class-geneanet-embedded-individual-public.php:134
+msgctxt "family"
+msgid "with"
+msgstr "con"
+
+#: public/class-geneanet-embedded-individual-public.php:135
+msgid "with one child"
+msgstr "de los cuales un hijo"
+
+#: public/class-geneanet-embedded-individual-public.php:136
+#, php-format
+msgid "with %d children"
+msgstr "de los cuales %d hijos"
+
+#: public/class-geneanet-embedded-individual-public.php:183
+msgid "An error occurred. Please try another URL or save the post for more information."
+msgstr "Se ha producido un error. Cambie la URL o guarde el artículo para más detalles."
+
+#: public/partials/geneanet-embedded-individual-public-display.php:52
+msgid "Sosa/Ahnentafel number: "
+msgstr "N° Sosa: "
+
+#: public/partials/geneanet-embedded-individual-public-display.php:56
+msgid "View Family Tree"
+msgstr "Ver el árbol genealógico"
+
+#: public/partials/geneanet-embedded-individual-public-display.php:58
+msgid "View Individual"
+msgstr "Ver la ficha"
+
+#: public/partials/geneanet-embedded-individual-public-display.php:70
+msgid "Father: "
+msgstr "Padre: "
+
+#: public/partials/geneanet-embedded-individual-public-display.php:71
+msgid "Mother: "
+msgstr "Madre: "
+
+#. Author URI of the plugin/theme
+msgid "http://www.geneanet.org"
+msgstr "http://www.geneanet.org"
+
+#. Author of the plugin/theme
+msgid "Geneanet"
+msgstr "Geneanet"
+
+#. Description of the plugin/theme
+msgid "Allows to insert a short embedded sheet containing the main information of an individual from a Geneanet family tree to a post."
+msgstr "Permite insertar en un artículo una minificha que contenga las principales informaciones de un individuo que provenga de un árbol Geneanet."

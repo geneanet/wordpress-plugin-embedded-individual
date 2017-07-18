@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Geneanet Embedded Individual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-18 12:27+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2;add_admin_notice\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-geneanet-embedded-individual-admin.php:109
+msgid "Geneanet Embedded Individual"
+msgstr "Geneanetin profiililehti"
+
+#: admin/class-geneanet-embedded-individual-admin.php:113
+msgid "URL of the individual"
+msgstr "Profiililehden URL"
+
+#: admin/class-geneanet-embedded-individual-admin.php:122
+msgid "Select link"
+msgstr "Valitse linkki"
+
+#: admin/class-geneanet-embedded-individual-admin.php:123
+msgid "Select if visitor will view the individual page or the family tree."
+msgstr "Valitse haluatko tarkastella yksittäistä sivua vai sukupuuta vierilijana."
+
+#: admin/class-geneanet-embedded-individual-admin.php:127
+msgid "Individual"
+msgstr "Yksittäistä"
+
+#: admin/class-geneanet-embedded-individual-admin.php:128
+msgid "Family Tree"
+msgstr "Sukupuu"
+
+#: admin/class-geneanet-embedded-individual-admin.php:135
+msgid "Select alignment"
+msgstr "Valitse kohdistus"
+
+#: admin/class-geneanet-embedded-individual-admin.php:139
+msgid "Left"
+msgstr "Vasen"
+
+#: admin/class-geneanet-embedded-individual-admin.php:140
+msgid "Center"
+msgstr "Keskus"
+
+#: admin/class-geneanet-embedded-individual-admin.php:141
+msgid "Right"
+msgstr "Oikea"
+
+#: admin/class-geneanet-embedded-individual-admin.php:396
+#, php-format
+msgid "The URL may not be correctly formatted: %s"
+msgstr "URL ei mahdollisesti ole oikein formatoitu : %s"
+
+#: admin/class-geneanet-embedded-individual-admin.php:422
+#, php-format
+msgid "Geneanet has returned an unexpected response for the URL %s. Please try again in a few moments."
+msgstr "Odottamaton häiriö on ilmennyt URL%s:ssä. Olkaa ystävällinen ja kokeilkaa uudelleen."
+
+#: admin/class-geneanet-embedded-individual-admin.php:430
+#, php-format
+msgid "No individual found with the URL: %s"
+msgstr "Ei löydettyä henkilöä URL:llä : %s"
+
+#: admin/class-geneanet-embedded-individual-admin.php:432
+#, php-format
+msgid "Geneanet returned an error for the URL %s: %d"
+msgstr "URL:ssä on ilmennyt häiriö %s : %d"
+
+#: admin/class-geneanet-embedded-individual-admin.php:435
+#, php-format
+msgid "An error has occurred while sending a request to the URL %s: %d"
+msgstr "Sopimaton URL pyyntö %s : %d"
+
+#: public/class-geneanet-embedded-individual-public.php:124
+msgid "An error has occurred while sending a request to Geneanet"
+msgstr "Lähetettäessä pyyntö Geneanetille ilmeni häiriö"
+
+#: public/class-geneanet-embedded-individual-public.php:125
+msgid "Geneanet returned an error: "
+msgstr "Geneanet palautti häiriön : "
+
+#: public/class-geneanet-embedded-individual-public.php:126
+msgid "Individual has not been found (it may be private in the family tree)"
+msgstr "Henkilöä ei löytynyt. (Hän voi mahdollisesti olla yksityinen Geneanet sukupuussa)"
+
+#: public/class-geneanet-embedded-individual-public.php:127
+msgctxt "male"
+msgid "Married"
+msgstr "Avioitunut"
+
+#: public/class-geneanet-embedded-individual-public.php:128
+msgctxt "female"
+msgid "Married"
+msgstr "Avioitunut"
+
+#: public/class-geneanet-embedded-individual-public.php:129
+msgctxt "unknown"
+msgid "Married"
+msgstr "Avioitunut"
+
+#: public/class-geneanet-embedded-individual-public.php:130
+msgid "Relation"
+msgstr "Suhde"
+
+#: public/class-geneanet-embedded-individual-public.php:131
+msgctxt "male"
+msgid "Engaged"
+msgstr "Kihlautunut"
+
+#: public/class-geneanet-embedded-individual-public.php:132
+msgctxt "female"
+msgid "Engaged"
+msgstr "Kihlautunut"
+
+#: public/class-geneanet-embedded-individual-public.php:133
+msgctxt "unknown"
+msgid "Engaged"
+msgstr "Kihlautunut"
+
+#: public/class-geneanet-embedded-individual-public.php:134
+msgctxt "family"
+msgid "with"
+msgstr "kanssa"
+
+#: public/class-geneanet-embedded-individual-public.php:135
+msgid "with one child"
+msgstr "Yksi lapsi"
+
+#: public/class-geneanet-embedded-individual-public.php:136
+#, php-format
+msgid "with %d children"
+msgstr "%d lapsineen"
+
+#: public/class-geneanet-embedded-individual-public.php:183
+msgid "An error occurred. Please try another URL or save the post for more information."
+msgstr "On ilmennyt häiriö. Olkaa ystävällinen ja valitkaa toinen URL tai tallentakaa artikkeli lisäselvityksiä ajaksi."
+
+#: public/partials/geneanet-embedded-individual-public-display.php:52
+msgid "Sosa/Ahnentafel number: "
+msgstr "Sukupuun numero : "
+
+#: public/partials/geneanet-embedded-individual-public-display.php:56
+msgid "View Family Tree"
+msgstr "Tarkastella Sukupuuta"
+
+#: public/partials/geneanet-embedded-individual-public-display.php:58
+msgid "View Individual"
+msgstr "Käy katsomassa profiilia"
+
+#: public/partials/geneanet-embedded-individual-public-display.php:70
+msgid "Father: "
+msgstr "Isä : "
+
+#: public/partials/geneanet-embedded-individual-public-display.php:71
+msgid "Mother: "
+msgstr "Äiti : "
+
+#. Author URI of the plugin/theme
+msgid "http://www.geneanet.org"
+msgstr "http://www.geneanet.org"
+
+#. Author of the plugin/theme
+msgid "Geneanet"
+msgstr "Geneanet"
+
+#. Description of the plugin/theme
+msgid "Allows to insert a short embedded sheet containing the main information of an individual from a Geneanet family tree to a post."
+msgstr "Sallii sisällyttämään lyhyen liuskan sisältäen olennaisimmat tiedot henkilöstä Geneanetissä olevasta sukupuusta artikkeliin."
